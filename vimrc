@@ -141,7 +141,7 @@
     set guifont=Source_Code_Pro:b:h11,Andale_Mono:h10,Menlo:h10,Consolas:h10,Courier_New:h10
     "set guifont=Andale_Mono:h11,Menlo:h10,Consolas:h10,Courier_New:h10
     " Highlight 80th column
-    highlight Col80 guifg=#ffffff guibg=#555555 font=Source_Code_Pro:b:h11
+    highlight Col80 guifg=#ffffff guibg=#555555
     call matchadd('Col80', '\%81v')
 
     "" Highlight columns after 90
